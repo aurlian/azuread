@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <p><a asp-page="/Token">Get token for logged in user to call api</a></p>
+    <p><a asp-page="/Api">Call api using user token (get forecast)</a></p>
+</div>
